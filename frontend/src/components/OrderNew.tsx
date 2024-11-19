@@ -21,6 +21,7 @@ export default function OrderNew(props: {
             <input
                 name="quantity"
                 type="number"
+                placeholder="Quantité"
                 min="1"
                 value={props.newOrder.quantity}
                 onChange={props.onChange}
